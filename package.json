@@ -1,0 +1,24 @@
+{
+  "name": "spa-skel",
+  "version": "1.0.0",
+  "description": "Single Page Application Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "bennysway",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.2",
+    "jquery": "^3.4.1",
+    "semantic-ui-css": "^2.4.1",
+    "vanilla-router": "^1.2.7"
+  }
+}
